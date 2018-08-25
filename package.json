@@ -1,0 +1,19 @@
+{
+  "name": "temperature-api",
+  "version": "1.0.0",
+  "description": "Write an API application that allows users to check the current temperature.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanaynigam/Temperature-API.git"
+  },
+  "author": "Tanay Nigam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanaynigam/Temperature-API/issues"
+  },
+  "homepage": "https://github.com/tanaynigam/Temperature-API#readme"
+}
