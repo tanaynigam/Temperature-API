@@ -1,6 +1,6 @@
 ## Temperature-API
 
-#Instructions
+### Instructions
 
 1. Run `npm install`
 2. Run `npm test`
@@ -10,7 +10,7 @@
 6. To show temperature in Celsius/Fahrenheit use url: "http://localhost:8080/locations/<Zipcode>?scale=<Celsius/Fahrenheit>"
 
 
-#Problem
+### Problem
 Write an API application that allows users to check the current temperature.
 
 The API application should provide one route:
