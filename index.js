@@ -6,23 +6,26 @@ var temp = 0;
 app.get('/locations/:zip' , function (req, res) {
 	var data = yahooWeather.getWeather(req.params.zip)
 	data.then((data) => {
-		var temp
-		var scale
+		var temp;
+		var scale;
 		if(req.query.scale == "Celsius"){
-			scale = "Celsius"
-			temp = (data - 32) * (5/9)
+			scale = "Celsius";
+			temp = parseInt((data - 32) * (5/9));
 		}
 		else if(req.query.scale == "Fahrenheit"){
-			scale = "Fahrenheit"
-			temp = data
+			scale = "Fahrenheit";
+			temp = data;
 		}
 		else if(req.query.scale != null){
-			scale = "Fahrenheit"
-			temp = data
+			res.status(400).send('Bad Request');
+			
+		} else{
+			scale = "Fahrenheit";
+			temp = data;
 		}
-		result = {"temperature" : temp, "scale" : scale}
-		res.send(result)
-	}).catch(error => res.send("Error") )
+		result = {"temperature" : temp, "scale" : scale};
+		res.send(result);
+	}).catch(error => res.send("Error") );
 
 })
 
@@ -30,9 +33,9 @@ app.get('/locations/:zip' , function (req, res) {
 
 var server = app.listen(8080, function () {
 
-  var host = server.address().address
-  var port = server.address().port
+  var host = server.address().address;
+  var port = server.address().port;
 
-  console.log("Example app listening at http://%s:%s", host, port)
+  console.log("Example app listening at http://%s:%s", host, port);
 
 })

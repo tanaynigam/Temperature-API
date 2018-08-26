@@ -1,0 +1,33 @@
+{
+  "data": {
+    "query": {
+      "count": 1,
+      "created": "2018-08-26T17:36:26Z",
+      "lang": "en-US",
+      "results": {
+        "channel": {
+          "item": {
+            "condition": {
+              "temp": "77"
+            }
+          }
+        }
+      }
+    }
+  },
+  "headers": {
+    "access-control-allow-origin": "*",
+    "age": "0",
+    "cache-control": "no-cache",
+    "connection": "close",
+    "content-type": "application/json;charset=utf-8",
+    "date": "Sun, 26 Aug 2018 17:36:26 GMT",
+    "expect-ct": "max-age=31536000; report-uri=\"http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only\"",
+    "public-key-pins-report-only": "pin-sha256=\"2fRAUXyxl4A1/XHrKNBmc8bTkzA7y4FB/GLJuNAzCqY=\"; pin-sha256=\"dolnbtzEBnELx/9lOEQ22e6OZO/QNb6VSSX2XHA3E7A=\"; pin-sha256=\"i7WTqTvh0OioIruIfFR4kMPnBqrS2rdiVPl/s2uC/CY=\"; pin-sha256=\"I/Lt/z7ekCWanjD0Cvj5EqXls2lOaThEA0H2Bg4BT/o=\"; pin-sha256=\"r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=\"; pin-sha256=\"uUwZgwDOxcBXrQcntwu+kYFpkiVkOaezL0WYEZ3anJc=\"; pin-sha256=\"Wd8xe/qfTwq3ylFNd3IpaqLHZbh2ZNCLluVzmeNkcpw=\"; pin-sha256=\"WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=\"; includeSubdomains; max-age=2592000; report-uri=\"http://csp.yahoo.com/beacon/csp?src=yahoocom-hpkp-report-only\"",
+    "server": "ATS",
+    "strict-transport-security": "max-age=31536000",
+    "transfer-encoding": "chunked",
+    "via": "http/1.1 a78.ue.gq1.yahoo.net (ApacheTrafficServer [cMsSf ])",
+    "x-content-type-options": "nosniff"
+  }
+}
